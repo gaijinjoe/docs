@@ -66,15 +66,15 @@
 7. 选择左侧字段的参数，并在右下角字段填入变量值。
 
   **例如，调用以下内容:**
-  * `6e616d65` when calling the Woolong, will return 'Woolong'.
+  * `6e616d65` 当调用 Woolong, 将返回 'Woolong'.
     ```csharp
     if (method == "name") return name;
     ```
-  * `73796d626f6c` will return 'WNG'.
+  * `73796d626f6c` 将返回 'WNG'.
     ```csharp
      if (method == "symbol") return symbol;
     ```
-  * `62616c616e63654f66, 5fe459481de7b82f0636542ffe5445072f9357a1261515d6d3173c07c762743b` will return the current balance of Woolong that lllwvlvwll holds on the testnet.
+  * `62616c616e63654f66, 5fe459481de7b82f0636542ffe5445072f9357a1261515d6d3173c07c762743b` 将返回测试网络上的Woolong当前余额。
     ```csharp
     if (method == "balanceOf") return Storage.Get(Storage.CurrentContext, (byte[]) args[0]);
     ```
