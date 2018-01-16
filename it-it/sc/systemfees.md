@@ -1,22 +1,22 @@
-# Sistema di Commissioni
+# Sistema di Tassazione
 
-## Commissioni transazione
+## Tassa di transazione
 
-Correntemente non vi sono commissioni sulle transazioni. L'utente puó comunque scegliere di pagare la commissione della transazione per avere prioritá.
+Al momento non vi sono commissioni sulle transazioni. L'utente puó comunque scegliere di pagare la tassa della transazione per avere prioritá.
 
-## Commissioni smart contract
+## Tassa per smart contract
 
-La struttura di commissioni per gli Smart Contracts puó essere trovata nella tabella sotto.
+La struttura di tassazione per gli Smart Contracts puó essere trovata nella tabella sotto.
 
-Gli iniziali 10 GAS sono sempre gratuiti. Le commssioni che ammontano a 10 GAS o meno non richiedono alcun servizio di commissione.
+Gli iniziali 10 GAS sono sempre gratuiti. Le tasse che ammontano a 10 GAS o meno non richiedono alcun servizio di commissione.
 
-Le commisioni seguenti sono commissioni minime. L'utente puó decire di pagare qualcosa in piú per avere prioritá.
+Le tasse seguenti sono commissioni minime. L'utente puó decidere di pagare qualcosa in piú per avere prioritá.
 
-Tutte le commissioni degli smart contract sono considerate come servizio di commissioni da mettere in una pool per la redistribuzione a tutti i possessori di NEO. La distribuzione é proporzionale alla quantitá di NEO.
+Tutte le tasse degli smart contract sono considerate come servizio di tassazione da mettere in una pool per la redistribuzione a tutti i possessori di NEO. La distribuzione é proporzionale alla quantitá di NEO.
 
-### Commissioni per le Chiamate al Sistema
+### Tassazioni per le Chiamate al Sistema
 
-| SysCall                               | Commissione [Gas]     |
+| SysCall                               | Tassa [Gas]     |
 |---------------------------------------|:-------------:|
 | Runtime.CheckWitness                  | 0.2           |
 | Blockchain.GetHeader                  | 0.1           |
@@ -40,9 +40,9 @@ Tutte le commissioni degli smart contract sono considerate come servizio di comm
 
 * Aggiuntivo 1 GAS minimo.
 
-### Commissioni per le Istruzioni
+### Tassazioni per le Istruzioni
 
-| Istruzione                           | Commissione [Gas]     |
+| Istruzione                           | Tassa [Gas]     |
 |---------------------------------------|:-------------:|
 | OpCode.PUSH16 [or less]               | 0             |
 | OpCode.NOP                            | 0             |
