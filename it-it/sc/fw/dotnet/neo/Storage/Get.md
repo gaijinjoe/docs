@@ -16,7 +16,7 @@ Parametri:
 
 Context: Contesto di memoria come [StorageContext](../StorageContext.md).
 
-Key: Chaive come array di byte.
+Key: Chiave come array di byte.
 
 Valore restituito: il valore corrispondente alla chiave come array di byte.
 
